@@ -143,10 +143,10 @@ end
 if won?
   #winner == "X"
   puts "Congratulations " + winner + "!"
-elsif winner == "O"
-  puts "Congratulations O!"
-else draw?
+#elsif winner == "O"
+  #puts "Congratulations O!"
+else #draw?
   puts "Cat's Game!"
-end
+#end
 end
 end
