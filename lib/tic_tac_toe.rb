@@ -140,8 +140,9 @@ until over?
   turn
 end
 
-if winner == "X"
-  puts "Congratulations X!"
+if won?
+  #winner == "X"
+  puts "Congratulations " + winner + "!"
 elsif winner == "O"
   puts "Congratulations O!"
 else draw?
