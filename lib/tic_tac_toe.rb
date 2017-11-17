@@ -147,6 +147,6 @@ if won?
   #puts "Congratulations O!"
 else #draw?
   puts "Cat's Game!"
-#end
+end
 end
 end
