@@ -135,7 +135,7 @@ def winner
 end
 
 def play
-  binding.pry
+  #binding.pry
 until over?
   turn
 end
